@@ -28,7 +28,8 @@ def apply_discount
 end
 
 def items
- @items.keys
+ @items.each do |title, price|
+   
 end
 
 def void_last_transaction
