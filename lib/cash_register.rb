@@ -15,7 +15,7 @@ end
 
 def add_item(title, price, quantity = 1)
   binding.pry
-  @items << [title, price] * quantity
+  @items << ([title, price] * quantity)
   @total += (price * quantity)
 end
 
