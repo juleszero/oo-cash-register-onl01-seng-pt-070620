@@ -30,7 +30,7 @@ end
 
 def items
   binding.pry
-   @items
+   @items.flatten.select {|x| x.class == String}
 end
 
 def void_last_transaction
