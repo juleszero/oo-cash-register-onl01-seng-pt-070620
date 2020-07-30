@@ -33,10 +33,9 @@ def items
 end
 
 def void_last_transaction
-  
   @last_price = @items[-1][1]
-  binding.pry
-  self.total - @items[-1][1]
+  @total - @last_price
+  @total
 end
 
 end
