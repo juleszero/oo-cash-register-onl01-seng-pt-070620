@@ -1,3 +1,4 @@
+require 'pry'
 class CashRegister
   attr_accessor :register, :total, :items, :discount
 
@@ -13,7 +14,8 @@ def total
 end
 
 def add_item(title, price, quantity = 1)
-  @items[title] = price
+  binding.pry
+  @items << [title, price] * quantity
   @total += (price * quantity)
 end
 
@@ -28,7 +30,7 @@ def apply_discount
 end
 
 def items
-   
+   @items.flatten
 end
 
 def void_last_transaction
