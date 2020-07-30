@@ -28,13 +28,13 @@ def apply_discount
 end
 
 def items
- returns an array containing all items
+ #returns an array containing all items
  @items.keys
 end
 
-#def void_last_transaction
-#subtracts last item from the total
-#returns total as 0.0 if array it empty
-#end
+def void_last_transaction
+subtracts last item from the total
+returns total as 0.0 if array it empty
+end
 
 end
