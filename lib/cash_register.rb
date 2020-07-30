@@ -28,7 +28,6 @@ def apply_discount
 end
 
 def items
- #returns an array containing all items
  @items.keys
 end
 
