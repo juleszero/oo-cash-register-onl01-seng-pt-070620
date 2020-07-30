@@ -34,6 +34,7 @@ def items
 end
 
 def void_last_transaction
+  binding.pry
   if @items == []
     0.0
   else 
