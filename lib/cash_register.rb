@@ -29,7 +29,6 @@ def apply_discount
 end
 
 def items
-  binding.pry
    @items.flatten.select {|x| x.class == String}
 end
 
