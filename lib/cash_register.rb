@@ -1,4 +1,4 @@
-(require 'pry'
+require 'pry'
 class CashRegister
   attr_accessor :register, :total, :items, :discount
 
