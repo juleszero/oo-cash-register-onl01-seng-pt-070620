@@ -38,5 +38,6 @@ def void_last_transaction
   if @items == []
     0.0  
   end
+end
 
 end
