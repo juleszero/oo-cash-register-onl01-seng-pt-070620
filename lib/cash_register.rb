@@ -32,7 +32,7 @@ end
 def items
    @items.flatten.select {|x| x.class == String}
 end
-binding.pry
+
 def void_last_transaction
   @total -= @price
 end
