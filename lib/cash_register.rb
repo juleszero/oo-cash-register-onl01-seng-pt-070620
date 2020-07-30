@@ -33,6 +33,7 @@ def items
 end
 
 def void_last_transaction
+  binding.pry
 # subtracts last item from the total
 # returns total as 0.0 if array it empty
 end
