@@ -16,7 +16,7 @@ end
 def add_item(title, price, quantity = 1)
   @items << ([title, price] * quantity)
   @total += (price * quantity)
-  @last_price = @items[-1][1]
+  #@last_price = @items[-1][1]
 end
 
 def apply_discount
